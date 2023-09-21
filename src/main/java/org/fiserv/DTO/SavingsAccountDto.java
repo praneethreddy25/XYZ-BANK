@@ -1,0 +1,1 @@
+package org.fiserv.DTO;import com.fasterxml.jackson.annotation.JsonProperty;import lombok.Getter;import lombok.Setter;@Getter@Setterpublic class SavingsAccountDto {    private String accountNumber;    private Long balance;    private UserDto userDto;}
